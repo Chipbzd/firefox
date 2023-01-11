@@ -1,0 +1,283 @@
+2023-01-10 23:32:02.499 [Info] > XCGLogger writing log to: file:///var/mobile/Containers/Data/Application/0743125B-2BC8-4F92-A285-4AD728A3AE15/Library/Caches/Logs/sync.20230110T233202-0500.log
+2023-01-10 23:32:02.499 [Info] [RollingFileLogger.swift:46] newLogWithDate(_:) > Created file destination for logger with root: sync and timestamp: 2023-01-11 04:32:02 +0000
+2023-01-10 23:32:02.504 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][nimbus] fetching experiments
+2023-01-10 23:32:02.504 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][viaduct::backend] Using HTTP backend reqwest (untrusted)
+2023-01-10 23:32:02.505 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][nimbus::persistence] maybe_upgrade: no version number; wiping most stores
+2023-01-10 23:32:02.505 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][nimbus] [Nimbus] Retrieved date from Context: 2023-01-11 04:31:56 UTC
+2023-01-10 23:32:02.505 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][nimbus] [Nimbus] Installation Date: 2023-01-11 04:31:56 UTC
+2023-01-10 23:32:02.505 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][nimbus] [Nimbus] Update Date: 2023-01-11 04:32:02.505228 UTC
+2023-01-10 23:32:02.505 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][nimbus] [Nimbus] Days since install: 0
+2023-01-10 23:32:02.505 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][nimbus] [Nimbus] Days since update: 0
+2023-01-10 23:32:02.506 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][nimbus] updating experiment list
+2023-01-10 23:32:02.506 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][nimbus] [Nimbus] Retrieved date from Context: 2023-01-11 04:31:56 UTC
+2023-01-10 23:32:02.506 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][nimbus] [Nimbus] Installation Date: 2023-01-11 04:31:56 UTC
+2023-01-10 23:32:02.506 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][nimbus] [Nimbus] Update Date: 2023-01-11 04:32:02.505228 UTC
+2023-01-10 23:32:02.506 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][nimbus] [Nimbus] Days since install: 0
+2023-01-10 23:32:02.506 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][nimbus] [Nimbus] Days since update: 0
+2023-01-10 23:32:02.511 [Debug] [SwiftData.swift:456] init(filename:flags:schema:files:) > Opening connection to /private/var/mobile/Containers/Shared/AppGroup/0AFAE282-B800-4474-BD94-8F2A78E71A3B/profile.profile/browser.db.
+2023-01-10 23:32:02.515 [Info] [SwiftData.swift:617] prepareCleartext() > Enabling WAL mode.
+2023-01-10 23:32:02.518 [Debug] [SwiftData.swift:740] prepareSchema() > Schema BROWSER needs created or updated from version 0 to 41.
+2023-01-10 23:32:02.518 [Debug] [SwiftData.swift:746] prepareSchema() > Create or update BROWSER version 41 on <NSThread: 0x280d7fa80>{number = 6, name = (null)}.
+2023-01-10 23:32:02.518 [Debug] [SwiftData.swift:761] prepareSchema() > Schema BROWSER doesn't exist. Creating.
+2023-01-10 23:32:02.518 [Debug] [SwiftData.swift:653] createSchema() > Trying to create schema BROWSER at version 41
+2023-01-10 23:32:02.518 [Debug] [BrowserSchema.swift:931] create(_:) > Creating 49 tables, views, triggers, and indices.
+2023-01-10 23:32:02.530 [Debug] [SwiftData.swift:496] init(filename:flags:schema:files:) > Database successfully created or updated.
+2023-01-10 23:32:02.696 [Debug] [SwiftData.swift:456] init(filename:flags:schema:files:) > Opening connection to /private/var/mobile/Containers/Shared/AppGroup/0AFAE282-B800-4474-BD94-8F2A78E71A3B/profile.profile/ReadingList.db.
+2023-01-10 23:32:02.698 [Debug] [SwiftData.swift:456] init(filename:flags:schema:files:) > Opening connection to /private/var/mobile/Containers/Shared/AppGroup/0AFAE282-B800-4474-BD94-8F2A78E71A3B/profile.profile/browser.db.
+2023-01-10 23:32:02.698 [Info] [SwiftData.swift:617] prepareCleartext() > Enabling WAL mode.
+2023-01-10 23:32:02.699 [Info] [SwiftData.swift:617] prepareCleartext() > Enabling WAL mode.
+2023-01-10 23:32:02.702 [Debug] [SwiftData.swift:710] prepareSchema() > Skipping schema (BROWSER) preparation for read-only connection.
+2023-01-10 23:32:02.706 [Debug] [SwiftData.swift:496] init(filename:flags:schema:files:) > Database successfully created or updated.
+2023-01-10 23:32:02.707 [Debug] [SwiftData.swift:740] prepareSchema() > Schema READINGLIST needs created or updated from version 0 to 1.
+2023-01-10 23:32:02.709 [Debug] [SwiftData.swift:746] prepareSchema() > Create or update READINGLIST version 1 on <NSThread: 0x280d7fa80>{number = 6, name = (null)}.
+2023-01-10 23:32:02.710 [Debug] [SwiftData.swift:761] prepareSchema() > Schema READINGLIST doesn't exist. Creating.
+2023-01-10 23:32:02.710 [Debug] [SwiftData.swift:653] createSchema() > Trying to create schema READINGLIST at version 1
+2023-01-10 23:32:02.713 [Debug] [SwiftData.swift:496] init(filename:flags:schema:files:) > Database successfully created or updated.
+2023-01-10 23:32:02.820 [Debug] [Profile.swift:355] reopen() > Reopening profile.
+2023-01-10 23:32:02.890 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][places::import::ios::bookmarks] Successfully imported bookmarks!
+2023-01-10 23:32:02.902 [Warning] [Profile.swift:300] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][logins::schema] user_version: 0
+2023-01-10 23:32:03.209 [Warning] [Profile.swift:300] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][fxa_client::internal::error] Authentication error: Error(No cached token for scope https://identity.mozilla.com/apps/oldsync)
+2023-01-10 23:32:06.962 [Warning] [Profile.swift:300] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][fxa_client::internal::error] Authentication error: Error(No cached token for scope profile)
+2023-01-10 23:32:38.290 [Debug] [Profile.swift:1009] beginTimedSyncs() > Starting sync timer.
+2023-01-10 23:32:38.292 [Info] [Profile.swift:1339] syncWith(synchronizers:statsSession:why:) > Syncing ["clients", "tabs", "bookmarks", "history", "logins"]
+2023-01-10 23:32:38.384 [Debug] [SyncAuthState.swift:157] token(_:canBeExpired:) > Fetching token server token.
+2023-01-10 23:32:38.652 [Debug] [SyncAuthState.swift:165] token(_:canBeExpired:) > Fetched token server token!  Token expires at 1673415158293.
+2023-01-10 23:32:38.658 [Debug] [SyncStateMachine.swift:153] toReady(_:) > Got token from auth state.
+2023-01-10 23:32:38.659 [Debug] [State.swift:548] restoreFromPrefs(_:syncKeyBundle:) > No scratchpad found in prefs.
+2023-01-10 23:32:38.659 [Info] [SyncStateMachine.swift:159] toReady(_:) > No persisted Sync state. Starting over.
+2023-01-10 23:32:38.659 [Info] [SyncStateMachine.swift:194] toReady(_:) > Advancing to InitialWithLiveToken.
+2023-01-10 23:32:38.659 [Info] [SyncStateMachine.swift:339] init(scratchpad:token:) > Inited initialWithLiveToken
+2023-01-10 23:32:38.659 [Info] [SyncStateMachine.swift:122] advanceFromState(_:) > advanceFromState: InitialWithLiveToken
+2023-01-10 23:32:38.803 [Debug] [StorageClient.swift:381] failFromResponse(_:) > Status code: 200.
+2023-01-10 23:32:38.803 [Info] [SyncStateMachine.swift:339] init(scratchpad:token:) > Inited initialWithLiveTokenAndInfo
+2023-01-10 23:32:38.803 [Info] [SyncStateMachine.swift:122] advanceFromState(_:) > advanceFromState: InitialWithLiveTokenAndInfo
+2023-01-10 23:32:38.804 [Debug] [SyncStateMachine.swift:797] advance() > No cached meta/global found. Fetching fresh meta/global.
+2023-01-10 23:32:38.804 [Info] [SyncStateMachine.swift:323] init(client:scratchpad:token:) > Inited needsFreshMetaGlobal
+2023-01-10 23:32:38.804 [Info] [SyncStateMachine.swift:122] advanceFromState(_:) > advanceFromState: NeedsFreshMetaGlobal
+2023-01-10 23:32:38.930 [Debug] [StorageClient.swift:381] failFromResponse(_:) > Status code: 200.
+2023-01-10 23:32:38.933 [Info] [SyncStateMachine.swift:323] init(client:scratchpad:token:) > Inited resolveMetaGlobalVersion
+2023-01-10 23:32:38.933 [Info] [SyncStateMachine.swift:122] advanceFromState(_:) > advanceFromState: ResolveMetaGlobalVersion
+2023-01-10 23:32:38.933 [Info] [SyncStateMachine.swift:323] init(client:scratchpad:token:) > Inited resolveMetaGlobalContent
+2023-01-10 23:32:38.934 [Info] [SyncStateMachine.swift:122] advanceFromState(_:) > advanceFromState: ResolveMetaGlobalContent
+2023-01-10 23:32:38.937 [Debug] [State.swift:582] pickle(_:) > Removing keys from Keychain.
+2023-01-10 23:32:38.942 [Info] [SyncStateMachine.swift:323] init(client:scratchpad:token:) > Inited hasMetaGlobal
+2023-01-10 23:32:38.942 [Info] [SyncStateMachine.swift:122] advanceFromState(_:) > advanceFromState: HasMetaGlobal
+2023-01-10 23:32:38.943 [Debug] [SyncStateMachine.swift:892] advance() > No cached keys found. Fetching fresh keys.
+2023-01-10 23:32:38.943 [Info] [SyncStateMachine.swift:323] init(client:scratchpad:token:) > Inited needsFreshCryptoKeys
+2023-01-10 23:32:38.943 [Info] [SyncStateMachine.swift:122] advanceFromState(_:) > advanceFromState: NeedsFreshCryptoKeys
+2023-01-10 23:32:39.096 [Debug] [StorageClient.swift:381] failFromResponse(_:) > Status code: 200.
+2023-01-10 23:32:39.102 [Debug] [State.swift:577] pickle(_:) > Storing keys in Keychain with label keys.KkhqmT4RUA61.
+2023-01-10 23:32:39.115 [Info] [SyncStateMachine.swift:323] init(client:scratchpad:token:) > Inited hasFreshCryptoKeys
+2023-01-10 23:32:39.116 [Info] [SyncStateMachine.swift:122] advanceFromState(_:) > advanceFromState: HasFreshCryptoKeys
+2023-01-10 23:32:39.116 [Info] [SyncStateMachine.swift:323] init(client:scratchpad:token:) > Inited ready
+2023-01-10 23:32:39.116 [Info] [SyncStateMachine.swift:122] advanceFromState(_:) > advanceFromState: Ready
+2023-01-10 23:32:39.117 [Debug] [Profile.swift:1204] takeActionsOnEngineStateChanges(_:) > Already resetting clients (and tabs); not bothering to also reset tabs again.
+2023-01-10 23:32:39.145 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][logins::sync::engine] Executing reset on password engine!
+2023-01-10 23:32:39.157 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sql_support::open_database] tabs storage db: database doesn't exist, but we weren't requested to create it
+2023-01-10 23:32:39.158 [Debug] [Downloader.swift:53] resetDownloaderWithPrefs(_:collection:) > Resetting downloader prefs profile.sync.synchronizer.history..downloader.history... Previous values: nil, nil.
+2023-01-10 23:32:39.159 [Debug] [State.swift:577] pickle(_:) > Storing keys in Keychain with label keys.KkhqmT4RUA61.
+2023-01-10 23:32:39.166 [Debug] [Profile.swift:1358] syncWith(synchronizers:statsSession:why:) > Syncing clients…
+2023-01-10 23:32:39.166 [Debug] [Profile.swift:1026] syncClientsWithDelegate(_:prefs:ready:why:) > Syncing clients to storage.
+2023-01-10 23:32:39.166 [Info] [Synchronizer.swift:193] init(scratchpad:delegate:basePrefs:why:collection:) > Synchronizer configured with prefs 'profile.sync.synchronizer.clients...'
+2023-01-10 23:32:39.166 [Debug] [ClientsSynchronizer.swift:382] synchronizeLocalClients(_:withServer:info:) > Synchronizing clients.
+2023-01-10 23:32:39.166 [Debug] [StorageClient.swift:800] getSince(_:sort:limit:offset:) > Issuing GET with newer = 0, offset = nil, sort = nil.
+2023-01-10 23:32:39.289 [Debug] [StorageClient.swift:381] failFromResponse(_:) > Status code: 200.
+2023-01-10 23:32:39.296 [Debug] [ClientsSynchronizer.swift:310] applyStorageResponse(_:toLocalClients:withServer:) > Applying clients response.
+2023-01-10 23:32:39.296 [Debug] [ClientsSynchronizer.swift:317] applyStorageResponse(_:toLocalClients:withServer:) > Got 7 client records.
+2023-01-10 23:32:39.301 [Debug] [ClientsSynchronizer.swift:198] processCommandsFromRecord(_:withServer:) > Processing commands from downloaded record.
+2023-01-10 23:32:39.301 [Debug] [ClientsSynchronizer.swift:282] maybeUploadOurRecord(_:ifUnmodifiedSince:toServer:) > Should we upload our client record? Caller = true, expired = true.
+2023-01-10 23:32:39.525 [Debug] [StorageClient.swift:381] failFromResponse(_:) > Status code: 200.
+2023-01-10 23:32:39.526 [Debug] [ClientsSynchronizer.swift:294] maybeUploadOurRecord(_:ifUnmodifiedSince:toServer:) > Client record upload succeeded. New timestamp: 1673411559360.
+2023-01-10 23:32:39.530 [Debug] [ClientsSynchronizer.swift:371] applyStorageResponse(_:toLocalClients:withServer:) > Running 0 commands.
+2023-01-10 23:32:39.532 [Debug] [Profile.swift:1046] syncClientsWithDelegate(_:prefs:ready:why:) > Updating FxA devices list.
+2023-01-10 23:32:39.533 [Debug] [Profile.swift:1358] syncWith(synchronizers:statsSession:why:) > Syncing tabs…
+2023-01-10 23:32:39.534 [Debug] [Profile.swift:1173] syncTabsWithDelegate(_:prefs:ready:why:) > Syncing tabs to storage.
+2023-01-10 23:32:39.634 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::sync_multiple] Syncing 1 engines
+2023-01-10 23:32:39.634 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::sync_multiple] Loading/initializing persisted state
+2023-01-10 23:32:39.634 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::sync_multiple] The application didn't give us persisted state - this is only expected on the very first run for a given user.
+2023-01-10 23:32:39.634 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::sync_multiple] Preparing client info
+2023-01-10 23:32:39.634 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::sync_multiple] Entering sync state machine
+2023-01-10 23:32:39.634 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::sync_multiple] Advancing state machine to ready (full)
+2023-01-10 23:32:39.975 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::storage_client] Successful request to "/1.5/152885060/info/configuration", incoming x-last-modified=ServerTimestamp(0)
+2023-01-10 23:32:40.096 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::storage_client] Successful request to "/1.5/152885060/info/collections", incoming x-last-modified=ServerTimestamp(1673411559360)
+2023-01-10 23:32:40.211 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::storage_client] Successful request to "/1.5/152885060/storage/meta/global", incoming x-last-modified=ServerTimestamp(1673360164430)
+2023-01-10 23:32:40.211 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::state] Have info/collections and meta/global. Computing new engine states
+2023-01-10 23:32:40.308 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::storage_client] Successful request to "/1.5/152885060/storage/crypto/keys", incoming x-last-modified=ServerTimestamp(1557351365310)
+2023-01-10 23:32:40.308 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::sync_multiple] Synchronizing engines
+2023-01-10 23:32:40.308 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::sync_multiple] Syncing tabs engine!
+2023-01-10 23:32:40.308 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::sync] Syncing collection tabs
+2023-01-10 23:32:40.309 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::coll_state] Resetting tabs engine
+2023-01-10 23:32:40.309 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sql_support::open_database] tabs storage db: database doesn't exist, but we weren't requested to create it
+2023-01-10 23:32:40.415 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::storage_client] Successful request to "/1.5/152885060/storage/tabs", incoming x-last-modified=ServerTimestamp(1673411440950)
+2023-01-10 23:32:40.416 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::sync] Downloaded 6 remote changes (request 0 of 1)
+2023-01-10 23:32:40.416 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][tabs::sync::engine] Storing tabs from a client that doesn't appear in the devices list: 13458612237a9cb029528b394de5742f
+2023-01-10 23:32:40.417 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][tabs::sync::engine] Storing tabs from a client that doesn't appear in the devices list: 34TZl6qLpm8r
+2023-01-10 23:32:40.417 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][tabs::sync::engine] Storing tabs from a client that doesn't appear in the devices list: 4010ffd7d6e8155bb9b1d65e9c987040
+2023-01-10 23:32:40.417 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][tabs::sync::engine] Storing tabs from a client that doesn't appear in the devices list: 537572a7e2d92112a144a25a3b3ddbcb
+2023-01-10 23:32:40.417 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][tabs::sync::engine] Storing tabs from a client that doesn't appear in the devices list: 90011206cf1c65ff81dbc07461a1ee3e
+2023-01-10 23:32:40.417 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][tabs::sync::engine] Storing tabs from a client that doesn't appear in the devices list: 9e09fdfcc8a62147c03516165bae885c
+2023-01-10 23:32:40.430 [Debug] [Profile.swift:355] reopen() > Reopening profile.
+2023-01-10 23:32:40.431 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::sync] Uploading 1 outgoing changes
+2023-01-10 23:32:40.431 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::request] Posting 1 records of 334 bytes
+2023-01-10 23:32:40.795 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::storage_client] Successful request to "/1.5/152885060/storage/tabs", incoming x-last-modified=ServerTimestamp(1673411560490)
+2023-01-10 23:32:40.795 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::sync] Upload success (1 records success, 0 records failed)
+2023-01-10 23:32:40.795 [Debug] [Profile.swift:1003] beginTimedSyncs() > Already running sync timer.
+2023-01-10 23:32:40.795 [Debug] [Profile.swift:1358] syncWith(synchronizers:statsSession:why:) > Syncing bookmarks…
+2023-01-10 23:32:40.795 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][tabs::sync::engine] sync completed after uploading 1 records
+2023-01-10 23:32:40.795 [Debug] [Profile.swift:768] applicationDidBecomeActive() > 1673411560795msec since last sync.
+2023-01-10 23:32:40.795 [Debug] [Profile.swift:1137] syncBookmarksWithDelegate(_:prefs:ready:why:) > Syncing bookmarks to storage.
+2023-01-10 23:32:40.795 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::sync] Sync finished!
+2023-01-10 23:32:40.796 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::sync_multiple] Sync of tabs was successful!
+2023-01-10 23:32:40.796 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::sync_multiple] Finished syncing engines.
+2023-01-10 23:32:40.867 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::sync_multiple] Syncing 1 engines
+2023-01-10 23:32:40.867 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::sync_multiple] Loading/initializing persisted state
+2023-01-10 23:32:40.867 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::sync_multiple] The application didn't give us persisted state - this is only expected on the very first run for a given user.
+2023-01-10 23:32:40.867 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::sync_multiple] Preparing client info
+2023-01-10 23:32:40.867 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::sync_multiple] Entering sync state machine
+2023-01-10 23:32:40.867 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::sync_multiple] Advancing state machine to ready (full)
+2023-01-10 23:32:41.181 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::storage_client] Successful request to "/1.5/152885060/info/configuration", incoming x-last-modified=ServerTimestamp(0)
+2023-01-10 23:32:41.299 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::storage_client] Successful request to "/1.5/152885060/info/collections", incoming x-last-modified=ServerTimestamp(1673411560490)
+2023-01-10 23:32:41.398 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::storage_client] Successful request to "/1.5/152885060/storage/meta/global", incoming x-last-modified=ServerTimestamp(1673360164430)
+2023-01-10 23:32:41.398 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::state] Have info/collections and meta/global. Computing new engine states
+2023-01-10 23:32:41.492 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::storage_client] Successful request to "/1.5/152885060/storage/crypto/keys", incoming x-last-modified=ServerTimestamp(1557351365310)
+2023-01-10 23:32:41.492 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::sync_multiple] Synchronizing engines
+2023-01-10 23:32:41.492 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::sync_multiple] Syncing bookmarks engine!
+2023-01-10 23:32:41.493 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::sync] Syncing collection bookmarks
+2023-01-10 23:32:41.493 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::coll_state] Resetting bookmarks engine
+2023-01-10 23:32:41.673 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::storage_client] Successful request to "/1.5/152885060/storage/bookmarks", incoming x-last-modified=ServerTimestamp(1673411441920)
+2023-01-10 23:32:41.684 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::sync] Downloaded 258 remote changes (request 0 of 1)
+2023-01-10 23:32:41.769 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::sync] Uploading 4 outgoing changes
+2023-01-10 23:32:41.769 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::request] Posting 4 records of 2765 bytes
+2023-01-10 23:32:41.904 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::storage_client] Successful request to "/1.5/152885060/storage/bookmarks", incoming x-last-modified=ServerTimestamp(1673411561820)
+2023-01-10 23:32:41.904 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::sync] Upload success (4 records success, 0 records failed)
+2023-01-10 23:32:41.912 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::sync] Sync finished!
+2023-01-10 23:32:41.913 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::sync_multiple] Sync of bookmarks was successful!
+2023-01-10 23:32:41.913 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::sync_multiple] Finished syncing engines.
+2023-01-10 23:32:41.915 [Debug] [Profile.swift:1358] syncWith(synchronizers:statsSession:why:) > Syncing history…
+2023-01-10 23:32:41.915 [Debug] [Profile.swift:1054] syncLegacyHistoryWithDelegate(_:prefs:ready:why:) > Syncing history to storage.
+2023-01-10 23:32:41.918 [Info] [Synchronizer.swift:193] init(scratchpad:delegate:basePrefs:why:collection:) > Synchronizer configured with prefs 'profile.sync.synchronizer.history...'
+2023-01-10 23:32:41.918 [Debug] [Profile.swift:1501] greenLight() > Checking green light. Backgrounded: false.
+2023-01-10 23:32:41.918 [Info] [Downloader.swift:42] init(collectionClient:basePrefs:collection:) > Downloader configured with prefs 'profile.sync.synchronizer.history..downloader.history..'.
+2023-01-10 23:32:41.918 [Debug] [Downloader.swift:122] go(_:limit:) > Modified: 1673371781680; last 0.
+2023-01-10 23:32:41.918 [Debug] [Downloader.swift:152] downloadNextBatchWithLimit(_:infoModified:) > Fetching newer=0, offset=nil.
+2023-01-10 23:32:41.918 [Debug] [StorageClient.swift:800] getSince(_:sort:limit:offset:) > Issuing GET with newer = 0, offset = nil, sort = OldestFirst.
+2023-01-10 23:32:42.169 [Debug] [StorageClient.swift:381] failFromResponse(_:) > Status code: 200.
+2023-01-10 23:32:42.290 [Debug] [Downloader.swift:170] handleSuccess(_:) > Handling success.
+2023-01-10 23:32:42.290 [Debug] [Downloader.swift:204] handleSuccess(_:) > Got success response with 1000 records.
+2023-01-10 23:32:42.290 [Debug] [HistorySynchronizer.swift:232] onBatchResult(_:) > Running another batch.
+2023-01-10 23:32:43.301 [Debug] [Downloader.swift:187] handleSuccess(_:) > Advancing baseTimestamp to 1670335618450 - 1
+2023-01-10 23:32:43.303 [Debug] [Downloader.swift:122] go(_:limit:) > Modified: 1673371781680; last 0.
+2023-01-10 23:32:43.303 [Debug] [Downloader.swift:152] downloadNextBatchWithLimit(_:infoModified:) > Fetching newer=0, offset=1000.
+2023-01-10 23:32:43.303 [Debug] [StorageClient.swift:800] getSince(_:sort:limit:offset:) > Issuing GET with newer = 0, offset = 1000, sort = OldestFirst.
+2023-01-10 23:32:43.758 [Debug] [StorageClient.swift:381] failFromResponse(_:) > Status code: 200.
+2023-01-10 23:32:43.880 [Debug] [Downloader.swift:170] handleSuccess(_:) > Handling success.
+2023-01-10 23:32:43.880 [Debug] [Downloader.swift:204] handleSuccess(_:) > Got success response with 1000 records.
+2023-01-10 23:32:43.880 [Debug] [HistorySynchronizer.swift:232] onBatchResult(_:) > Running another batch.
+2023-01-10 23:32:44.905 [Debug] [Downloader.swift:187] handleSuccess(_:) > Advancing baseTimestamp to 1670714964690 - 1
+2023-01-10 23:32:44.907 [Debug] [Downloader.swift:122] go(_:limit:) > Modified: 1673371781680; last 0.
+2023-01-10 23:32:44.907 [Debug] [Downloader.swift:152] downloadNextBatchWithLimit(_:infoModified:) > Fetching newer=0, offset=2000.
+2023-01-10 23:32:44.907 [Debug] [StorageClient.swift:800] getSince(_:sort:limit:offset:) > Issuing GET with newer = 0, offset = 2000, sort = OldestFirst.
+2023-01-10 23:32:45.260 [Debug] [StorageClient.swift:381] failFromResponse(_:) > Status code: 200.
+2023-01-10 23:32:45.375 [Debug] [Downloader.swift:170] handleSuccess(_:) > Handling success.
+2023-01-10 23:32:45.375 [Debug] [Downloader.swift:204] handleSuccess(_:) > Got success response with 1000 records.
+2023-01-10 23:32:45.376 [Debug] [HistorySynchronizer.swift:232] onBatchResult(_:) > Running another batch.
+2023-01-10 23:32:46.520 [Debug] [Downloader.swift:187] handleSuccess(_:) > Advancing baseTimestamp to 1671205928600 - 1
+2023-01-10 23:32:46.521 [Debug] [Downloader.swift:122] go(_:limit:) > Modified: 1673371781680; last 0.
+2023-01-10 23:32:46.521 [Debug] [Downloader.swift:152] downloadNextBatchWithLimit(_:infoModified:) > Fetching newer=0, offset=3000.
+2023-01-10 23:32:46.522 [Debug] [StorageClient.swift:800] getSince(_:sort:limit:offset:) > Issuing GET with newer = 0, offset = 3000, sort = OldestFirst.
+2023-01-10 23:32:46.934 [Debug] [StorageClient.swift:381] failFromResponse(_:) > Status code: 200.
+2023-01-10 23:32:47.045 [Debug] [Downloader.swift:170] handleSuccess(_:) > Handling success.
+2023-01-10 23:32:47.045 [Debug] [Downloader.swift:204] handleSuccess(_:) > Got success response with 1000 records.
+2023-01-10 23:32:47.045 [Debug] [HistorySynchronizer.swift:232] onBatchResult(_:) > Running another batch.
+2023-01-10 23:32:48.065 [Debug] [Downloader.swift:187] handleSuccess(_:) > Advancing baseTimestamp to 1671806101950 - 1
+2023-01-10 23:32:48.066 [Debug] [Downloader.swift:122] go(_:limit:) > Modified: 1673371781680; last 0.
+2023-01-10 23:32:48.066 [Debug] [Downloader.swift:152] downloadNextBatchWithLimit(_:infoModified:) > Fetching newer=0, offset=4000.
+2023-01-10 23:32:48.066 [Debug] [StorageClient.swift:800] getSince(_:sort:limit:offset:) > Issuing GET with newer = 0, offset = 4000, sort = OldestFirst.
+2023-01-10 23:32:48.310 [Debug] [StorageClient.swift:381] failFromResponse(_:) > Status code: 200.
+2023-01-10 23:32:48.407 [Debug] [Downloader.swift:170] handleSuccess(_:) > Handling success.
+2023-01-10 23:32:48.407 [Debug] [Downloader.swift:204] handleSuccess(_:) > Got success response with 1000 records.
+2023-01-10 23:32:48.407 [Debug] [HistorySynchronizer.swift:232] onBatchResult(_:) > Running another batch.
+2023-01-10 23:32:49.587 [Debug] [Downloader.swift:187] handleSuccess(_:) > Advancing baseTimestamp to 1672329485840 - 1
+2023-01-10 23:32:49.588 [Debug] [Downloader.swift:122] go(_:limit:) > Modified: 1673371781680; last 0.
+2023-01-10 23:32:49.588 [Debug] [Downloader.swift:152] downloadNextBatchWithLimit(_:infoModified:) > Fetching newer=0, offset=5000.
+2023-01-10 23:32:49.588 [Debug] [StorageClient.swift:800] getSince(_:sort:limit:offset:) > Issuing GET with newer = 0, offset = 5000, sort = OldestFirst.
+2023-01-10 23:32:49.850 [Debug] [StorageClient.swift:381] failFromResponse(_:) > Status code: 200.
+2023-01-10 23:32:49.953 [Debug] [Downloader.swift:170] handleSuccess(_:) > Handling success.
+2023-01-10 23:32:49.953 [Debug] [Downloader.swift:204] handleSuccess(_:) > Got success response with 1000 records.
+2023-01-10 23:32:49.953 [Debug] [HistorySynchronizer.swift:232] onBatchResult(_:) > Running another batch.
+2023-01-10 23:32:50.981 [Debug] [Profile.swift:1406] syncEverythingSoon() > Running delayed startup sync.
+2023-01-10 23:32:51.093 [Debug] [Downloader.swift:187] handleSuccess(_:) > Advancing baseTimestamp to 1672933425870 - 1
+2023-01-10 23:32:51.094 [Debug] [Downloader.swift:122] go(_:limit:) > Modified: 1673371781680; last 0.
+2023-01-10 23:32:51.094 [Debug] [Downloader.swift:152] downloadNextBatchWithLimit(_:infoModified:) > Fetching newer=0, offset=6000.
+2023-01-10 23:32:51.094 [Debug] [StorageClient.swift:800] getSince(_:sort:limit:offset:) > Issuing GET with newer = 0, offset = 6000, sort = OldestFirst.
+2023-01-10 23:32:51.362 [Debug] [StorageClient.swift:381] failFromResponse(_:) > Status code: 200.
+2023-01-10 23:32:51.464 [Debug] [Downloader.swift:170] handleSuccess(_:) > Handling success.
+2023-01-10 23:32:51.464 [Debug] [Downloader.swift:204] handleSuccess(_:) > Got success response with 1000 records.
+2023-01-10 23:32:51.464 [Debug] [HistorySynchronizer.swift:232] onBatchResult(_:) > Running another batch.
+2023-01-10 23:32:52.640 [Debug] [Downloader.swift:187] handleSuccess(_:) > Advancing baseTimestamp to 1673360163310 - 1
+2023-01-10 23:32:52.641 [Debug] [Downloader.swift:122] go(_:limit:) > Modified: 1673371781680; last 0.
+2023-01-10 23:32:52.641 [Debug] [Downloader.swift:152] downloadNextBatchWithLimit(_:infoModified:) > Fetching newer=0, offset=7000.
+2023-01-10 23:32:52.641 [Debug] [StorageClient.swift:800] getSince(_:sort:limit:offset:) > Issuing GET with newer = 0, offset = 7000, sort = OldestFirst.
+2023-01-10 23:32:52.865 [Debug] [StorageClient.swift:381] failFromResponse(_:) > Status code: 200.
+2023-01-10 23:32:52.939 [Debug] [Downloader.swift:170] handleSuccess(_:) > Handling success.
+2023-01-10 23:32:52.939 [Debug] [Downloader.swift:204] handleSuccess(_:) > Got success response with 535 records.
+2023-01-10 23:32:52.939 [Info] [HistorySynchronizer.swift:227] onBatchResult(_:) > Done with batched mirroring.
+2023-01-10 23:32:53.593 [Debug] [Downloader.swift:187] handleSuccess(_:) > Advancing baseTimestamp to 1673371781680 - 1
+2023-01-10 23:32:53.593 [Debug] [Downloader.swift:199] handleSuccess(_:) > Advancing lastModified to Optional(1673371781680) ?? 1673371781680.
+2023-01-10 23:32:53.594 [Debug] [BrowserDB.swift:101] checkpoint() > Checkpointing a BrowserDB.
+2023-01-10 23:32:53.594 [Debug] [SwiftData.swift:877] checkpoint(_:) > Running WAL checkpoint on /private/var/mobile/Containers/Shared/AppGroup/0AFAE282-B800-4474-BD94-8F2A78E71A3B/profile.profile/browser.db on thread <NSThread: 0x2802759c0>{number = 18, name = (null)}.
+2023-01-10 23:32:53.594 [Debug] [SwiftData.swift:879] checkpoint(_:) > WAL checkpoint done on /private/var/mobile/Containers/Shared/AppGroup/0AFAE282-B800-4474-BD94-8F2A78E71A3B/profile.profile/browser.db.
+2023-01-10 23:32:53.595 [Info] [HistorySynchronizer.swift:172] uploadOutgoingFromStorage(_:lastTimestamp:withServer:) > Uploading 0 deleted places.
+2023-01-10 23:32:53.595 [Debug] [IndependentRecordSynchronizer.swift:109] uploadRecords(_:lastTimestamp:storageClient:onUpload:) > No modified records to upload.
+2023-01-10 23:32:53.595 [Info] [SQLiteHistory.swift:1027] attachVisitsTo(places:visitLimit:) > Attaching 0 places to 0 most recent visits
+2023-01-10 23:32:53.595 [Info] [HistorySynchronizer.swift:183] uploadOutgoingFromStorage(_:lastTimestamp:withServer:) > Uploading 0 modified places.
+2023-01-10 23:32:53.595 [Info] [HistorySynchronizer.swift:129] uploadModifiedPlaces(_:lastTimestamp:fromStorage:withServer:) > Preparing upload…
+2023-01-10 23:32:53.595 [Debug] [HistorySynchronizer.swift:197] uploadOutgoingFromStorage(_:lastTimestamp:withServer:) > Done syncing. Work was done? false
+2023-01-10 23:32:53.595 [Debug] [HistorySynchronizer.swift:199] uploadOutgoingFromStorage(_:lastTimestamp:withServer:) > Done.
+2023-01-10 23:32:53.595 [Debug] [Profile.swift:1358] syncWith(synchronizers:statsSession:why:) > Syncing logins…
+2023-01-10 23:32:53.595 [Debug] [Profile.swift:1116] syncLoginsWithDelegate(_:prefs:ready:why:) > Syncing logins to storage.
+2023-01-10 23:32:53.604 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::sync_multiple] Syncing 1 engines
+2023-01-10 23:32:53.604 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::sync_multiple] Loading/initializing persisted state
+2023-01-10 23:32:53.604 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::sync_multiple] The application didn't give us persisted state - this is only expected on the very first run for a given user.
+2023-01-10 23:32:53.604 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::sync_multiple] Preparing client info
+2023-01-10 23:32:53.604 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::sync_multiple] Entering sync state machine
+2023-01-10 23:32:53.604 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::sync_multiple] Advancing state machine to ready (full)
+2023-01-10 23:32:53.786 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::storage_client] Successful request to "/1.5/152885060/info/configuration", incoming x-last-modified=ServerTimestamp(0)
+2023-01-10 23:32:53.877 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::storage_client] Successful request to "/1.5/152885060/info/collections", incoming x-last-modified=ServerTimestamp(1673411561820)
+2023-01-10 23:32:53.967 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::storage_client] Successful request to "/1.5/152885060/storage/meta/global", incoming x-last-modified=ServerTimestamp(1673360164430)
+2023-01-10 23:32:53.968 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::state] Have info/collections and meta/global. Computing new engine states
+2023-01-10 23:32:54.060 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::storage_client] Successful request to "/1.5/152885060/storage/crypto/keys", incoming x-last-modified=ServerTimestamp(1557351365310)
+2023-01-10 23:32:54.061 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::sync_multiple] Synchronizing engines
+2023-01-10 23:32:54.061 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::sync_multiple] Syncing passwords engine!
+2023-01-10 23:32:54.061 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::sync] Syncing collection passwords
+2023-01-10 23:32:54.061 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::coll_state] Resetting passwords engine
+2023-01-10 23:32:54.061 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][logins::sync::engine] Executing reset on password engine!
+2023-01-10 23:32:54.355 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::storage_client] Successful request to "/1.5/152885060/storage/passwords", incoming x-last-modified=ServerTimestamp(1673360129680)
+2023-01-10 23:32:54.370 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::sync] Downloaded 330 remote changes (request 0 of 1)
+2023-01-10 23:32:54.400 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::sync] Uploading 0 outgoing changes
+2023-01-10 23:32:54.400 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::sync] Upload success (0 records success, 0 records failed)
+2023-01-10 23:32:54.401 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::sync] Sync finished!
+2023-01-10 23:32:54.401 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::sync_multiple] Sync of passwords was successful!
+2023-01-10 23:32:54.401 [Info] [Profile.swift:298] init(localName:syncDelegate:clear:isNewHistoryPlacesAPI:) > [RUST][sync15::client::sync_multiple] Finished syncing engines.
+2023-01-10 23:32:54.403 [Info] [Profile.swift:1269] syncSeveral(why:synchronizers:) > Nothing left to sync
+2023-01-10 23:32:54.403 [Info] [Profile.swift:795] endSyncing(_:) > Ending all queued syncs.
+2023-01-10 23:32:54.404 [Info] [SyncAuthState.swift:137] token(_:canBeExpired:) > Returning cached token, which should be valid.
+2023-01-10 23:32:54.408 [Debug] [State.swift:466] unpickleV1FromPrefs(_:syncKeyBundle:) > Read keys from Keychain with label KkhqmT4RUA61.
+2023-01-10 23:32:54.491 [Debug] [Profile.swift:573] getTabsWithNativeClients() > Could not find client data for appservices client ID 90011206cf1c65ff81dbc07461a1ee3e.
+2023-01-10 23:32:54.537 [Debug] [Profile.swift:1129] syncLoginsWithDelegate(_:prefs:ready:why:) > failure(Error Domain=ASCredentialIdentityStoreErrorDomain Code=1 "(null)")
+2023-01-10 23:33:54.766 [Debug] [AppSettingsOptions.swift:434] onClick(_:) > Matcher: browser.db-shm
+2023-01-10 23:33:54.771 [Debug] [AppSettingsOptions.swift:434] onClick(_:) > Matcher: ReadingList.db-wal
+2023-01-10 23:33:54.771 [Debug] [AppSettingsOptions.swift:434] onClick(_:) > Matcher: browser.db-wal
+2023-01-10 23:33:54.773 [Debug] [AppSettingsOptions.swift:434] onClick(_:) > Matcher: ReadingList.db-shm
+2023-01-10 23:33:54.774 [Debug] [AppSettingsOptions.swift:434] onClick(_:) > Matcher: browser.db
+2023-01-10 23:33:54.776 [Debug] [AppSettingsOptions.swift:434] onClick(_:) > Matcher: tabs.db-shm
+2023-01-10 23:33:54.776 [Debug] [AppSettingsOptions.swift:434] onClick(_:) > Matcher: tabs.db-wal
+2023-01-10 23:33:54.776 [Debug] [AppSettingsOptions.swift:434] onClick(_:) > Matcher: codableTabsState.archive
+2023-01-10 23:33:54.776 [Debug] [AppSettingsOptions.swift:434] onClick(_:) > Matcher: nimbus.db
+2023-01-10 23:33:54.776 [Debug] [AppSettingsOptions.swift:434] onClick(_:) > Matcher: TabManagerScreenshots
+2023-01-10 23:33:54.776 [Debug] [AppSettingsOptions.swift:434] onClick(_:) > Matcher: tabs.db
+2023-01-10 23:33:54.776 [Debug] [AppSettingsOptions.swift:434] onClick(_:) > Matcher: places.db-wal
+2023-01-10 23:33:54.776 [Debug] [AppSettingsOptions.swift:434] onClick(_:) > Matcher: places.db-shm
+2023-01-10 23:33:54.776 [Debug] [AppSettingsOptions.swift:434] onClick(_:) > Matcher: loginsPerField.db
+2023-01-10 23:33:54.776 [Debug] [AppSettingsOptions.swift:434] onClick(_:) > Matcher: ReadingList.db
+2023-01-10 23:33:54.776 [Debug] [AppSettingsOptions.swift:434] onClick(_:) > Matcher: places.db

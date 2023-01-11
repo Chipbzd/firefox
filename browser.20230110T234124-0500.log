@@ -1,0 +1,18 @@
+2023-01-10 23:41:24.616 [Info] > XCGLogger writing log to: file:///var/mobile/Containers/Data/Application/0743125B-2BC8-4F92-A285-4AD728A3AE15/Library/Caches/Logs/browser.20230110T234124-0500.log
+2023-01-10 23:41:24.617 [Info] [RollingFileLogger.swift:46] newLogWithDate(_:) > Created file destination for logger with root: browser and timestamp: 2023-01-11 04:41:24 +0000
+2023-01-10 23:41:24.617 [Info] [AppLaunchUtil.swift:181] initializeExperiments() > Nimbus: server exists
+2023-01-10 23:41:24.618 [Info] [Experiments.swift:197] Experiments > Nimbus is now available!
+2023-01-10 23:41:24.618 [Info] [Experiments.swift:237] intialize(_:) > Nimbus is initializing!
+2023-01-10 23:41:24.620 [Info] [AppDelegate.swift:57] application(_:willFinishLaunchingWithOptions:) > startApplication end
+2023-01-10 23:41:24.626 [Info] [AppLaunchUtil.swift:213] runAppServicesHistoryMigration() > Migration disabled, won't run migration
+2023-01-10 23:41:28.057 [Debug] [TabManagerStore.swift:247] write(tabStateData:path:) > PreserveTabs write succeeded with bytes count: 1053
+2023-01-10 23:41:28.225 [Debug] [TabManagerStore.swift:247] write(tabStateData:path:) > PreserveTabs write succeeded with bytes count: 1141
+2023-01-10 23:41:28.783 [Debug] [TabManagerStore.swift:247] write(tabStateData:path:) > PreserveTabs write succeeded with bytes count: 1141
+2023-01-10 23:41:31.056 [Info] [AppLaunchUtil.swift:213] runAppServicesHistoryMigration() > Migration disabled, won't run migration
+2023-01-10 23:41:31.069 [Info] [AppLaunchUtil.swift:213] runAppServicesHistoryMigration() > Migration disabled, won't run migration
+2023-01-10 23:41:31.074 [Info] [AppLaunchUtil.swift:213] runAppServicesHistoryMigration() > Migration disabled, won't run migration
+2023-01-10 23:41:31.079 [Info] [AppLaunchUtil.swift:213] runAppServicesHistoryMigration() > Migration disabled, won't run migration
+2023-01-10 23:41:31.084 [Info] [AppLaunchUtil.swift:213] runAppServicesHistoryMigration() > Migration disabled, won't run migration
+2023-01-10 23:41:34.551 [Debug] [SyncTelemetry.swift:51] send(ping:docType:) > Ping URL: https://incoming.telemetry.mozilla.org/submit/telemetry/4D6CEF50-B27C-4FEB-8B3A-6BB4C3B8AC07/sync/Fennec/108.1/release/24234
+2023-01-10 23:41:34.551 [Debug] [SyncTelemetry.swift:52] send(ping:docType:) > Ping payload: {"deviceID":"f28a0fd03a6dfc746bc648ecb79d4c9319caa76de63f8c2d16c1037f8894038c","uid":"2f5c440afcb4937140b255184619d848","os":{"locale":"en_US","version":"16.2","name":"iOS"},"version":1,"why":"schedule","events":[],"syncs":[{"why":"user","engines":[{"name":"clients","incoming":{"reconciled":0,"succeeded":7,"failed":0,"newFailed":0,"applied":7},"took":156},{"name":"tabs","took":0}],"when":1673412093329,"didLogin":false,"devices":[{"version":"108.1","id":"79c354e7c0e6c132b57996e5fdb0dab71563fa1ae006113a277587c2aff702bf","os":"iOS"},{"os":"Darwin","version":"108.0.2","id":"873accc02010ea91a13b2782dfd42b7c8eca127a288a2eed0405258a0afcab45"},{"version":"108.1","os":"iOS","id":"e2067fe80cb2b56e4adad3706abab09af86ddf774b0c680fdc2f6f7c8cd719e7"},{"os":"iOS","id":"e998b196600eb360cf5041ed821f47f4781fbb11788329004a5edcf084a3ceae","version":"108.1"},{"version":"108.1","id":"fc80fa3e3de9fffc5a6397dc8566f8e58e123f0831f4c23e62038a6e8564eda0","os":"iOS"},{"os":"iOS","id":"bbb57fec3dfb52ac69bc00c85341da7dd92f8bd7be1ba0c62bce6f03667dec9e","version":"108.1"}],"took":1131}]}
+2023-01-10 23:41:34.717 [Debug] [SyncTelemetry.swift:82] send(ping:docType:) > Ping response: 200.

@@ -1,0 +1,23 @@
+2023-01-10 23:32:02.500 [Info] > XCGLogger writing log to: file:///var/mobile/Containers/Data/Application/0743125B-2BC8-4F92-A285-4AD728A3AE15/Library/Caches/Logs/browser.20230110T233202-0500.log
+2023-01-10 23:32:02.500 [Info] [RollingFileLogger.swift:46] newLogWithDate(_:) > Created file destination for logger with root: browser and timestamp: 2023-01-11 04:32:02 +0000
+2023-01-10 23:32:02.503 [Info] [AppLaunchUtil.swift:174] initializeExperiments() > Nimbus: Loading from experiments from bundle, at first startup
+2023-01-10 23:32:02.504 [Info] [Experiments.swift:197] Experiments > Nimbus is now available!
+2023-01-10 23:32:02.504 [Info] [Experiments.swift:237] intialize(_:) > Nimbus is initializing!
+2023-01-10 23:32:02.506 [Info] [AppDelegate.swift:57] application(_:willFinishLaunchingWithOptions:) > startApplication end
+2023-01-10 23:32:02.508 [Info] [AppLaunchUtil.swift:213] runAppServicesHistoryMigration() > Migration disabled, won't run migration
+2023-01-10 23:32:02.781 [Debug] [TabManagerStore.swift:247] write(tabStateData:path:) > PreserveTabs write succeeded with bytes count: 971
+2023-01-10 23:32:02.999 [Error] [WallpaperMetadataUtility.swift:97] oldMetadataIsDifferentThanNew(_:) > Failed to get old metadata: The operation couldn’t be completed. (Client.WallpaperStorageError error 0.)
+2023-01-10 23:32:03.072 [Debug] [TabManagerStore.swift:247] write(tabStateData:path:) > PreserveTabs write succeeded with bytes count: 1141
+2023-01-10 23:32:03.599 [Debug] [TabManagerStore.swift:247] write(tabStateData:path:) > PreserveTabs write succeeded with bytes count: 1141
+2023-01-10 23:32:05.133 [Debug] [SentryIntegration.swift:219] printMessage(message:extra:) > Sentry: Uninstrumented metric recorded: firefoxAccount, view, onboarding, nil, nil 
+2023-01-10 23:32:06.939 [Debug] [SentryIntegration.swift:219] printMessage(message:extra:) > Sentry: Uninstrumented metric recorded: firefoxAccount, qrPairing, onboarding, nil, Optional(["flow_type": "email"]) 
+2023-01-10 23:32:06.967 [Debug] [SentryIntegration.swift:219] printMessage(message:extra:) > Sentry: Uninstrumented metric recorded: firefoxAccount, emailLogin, accountConnected, nil, nil 
+2023-01-10 23:32:38.396 [Info] [PushRegistrationAPI.swift:55] fetchJSONData(request:completion:) > POST https://updates.push.services.mozilla.com/v1/apns/firefox/registration
+2023-01-10 23:32:42.666 [Info] [AppLaunchUtil.swift:213] runAppServicesHistoryMigration() > Migration disabled, won't run migration
+2023-01-10 23:32:42.673 [Info] [AppLaunchUtil.swift:213] runAppServicesHistoryMigration() > Migration disabled, won't run migration
+2023-01-10 23:32:42.675 [Info] [AppLaunchUtil.swift:213] runAppServicesHistoryMigration() > Migration disabled, won't run migration
+2023-01-10 23:32:42.676 [Info] [AppLaunchUtil.swift:213] runAppServicesHistoryMigration() > Migration disabled, won't run migration
+2023-01-10 23:32:42.677 [Info] [AppLaunchUtil.swift:213] runAppServicesHistoryMigration() > Migration disabled, won't run migration
+2023-01-10 23:32:54.491 [Debug] [SyncTelemetry.swift:51] send(ping:docType:) > Ping URL: https://incoming.telemetry.mozilla.org/submit/telemetry/B59BBCAB-B2BC-4523-97DA-B85B55CD58B4/sync/Fennec/108.1/release/24234
+2023-01-10 23:32:54.492 [Debug] [SyncTelemetry.swift:52] send(ping:docType:) > Ping payload: {"version":1,"syncs":[{"didLogin":true,"why":"didLogin","engines":[{"name":"clients","incoming":{"succeeded":7,"applied":7,"newFailed":0,"reconciled":0,"failed":0},"outgoing":[{"failed":0,"sent":1}],"took":365},{"took":0,"name":"tabs"},{"took":0,"name":"bookmarks"},{"took":11677,"name":"history","incoming":{"failed":0,"applied":7535,"reconciled":0,"succeeded":7535,"newFailed":0}},{"took":0,"name":"logins"}],"devices":[{"os":"iOS","version":"108.1","id":"79c354e7c0e6c132b57996e5fdb0dab71563fa1ae006113a277587c2aff702bf"},{"os":"Darwin","id":"873accc02010ea91a13b2782dfd42b7c8eca127a288a2eed0405258a0afcab45","version":"108.0.2"},{"id":"e2067fe80cb2b56e4adad3706abab09af86ddf774b0c680fdc2f6f7c8cd719e7","version":"108.1","os":"iOS"},{"os":"iOS","id":"e998b196600eb360cf5041ed821f47f4781fbb11788329004a5edcf084a3ceae","version":"108.1"},{"os":"iOS","version":"108.1","id":"fc80fa3e3de9fffc5a6397dc8566f8e58e123f0831f4c23e62038a6e8564eda0"},{"os":"iOS","version":"108.1","id":"bbb57fec3dfb52ac69bc00c85341da7dd92f8bd7be1ba0c62bce6f03667dec9e"}],"took":15237,"when":1673411559166}],"why":"schedule","os":{"version":"16.2","locale":"en_US","name":"iOS"},"events":[],"deviceID":"f28a0fd03a6dfc746bc648ecb79d4c9319caa76de63f8c2d16c1037f8894038c","uid":"2f5c440afcb4937140b255184619d848"}
+2023-01-10 23:32:54.603 [Debug] [SyncTelemetry.swift:82] send(ping:docType:) > Ping response: 200.

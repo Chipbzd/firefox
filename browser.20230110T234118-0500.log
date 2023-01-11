@@ -1,0 +1,10 @@
+2023-01-10 23:41:18.092 [Info] > XCGLogger writing log to: file:///var/mobile/Containers/Data/Application/0743125B-2BC8-4F92-A285-4AD728A3AE15/Library/Caches/Logs/browser.20230110T234118-0500.log
+2023-01-10 23:41:18.092 [Info] [RollingFileLogger.swift:46] newLogWithDate(_:) > Created file destination for logger with root: browser and timestamp: 2023-01-11 04:41:18 +0000
+2023-01-10 23:41:18.092 [Info] [AppLaunchUtil.swift:181] initializeExperiments() > Nimbus: server exists
+2023-01-10 23:41:18.093 [Info] [Experiments.swift:197] Experiments > Nimbus is now available!
+2023-01-10 23:41:18.093 [Info] [Experiments.swift:237] intialize(_:) > Nimbus is initializing!
+2023-01-10 23:41:18.095 [Info] [AppDelegate.swift:57] application(_:willFinishLaunchingWithOptions:) > startApplication end
+2023-01-10 23:41:18.102 [Info] [AppLaunchUtil.swift:213] runAppServicesHistoryMigration() > Migration disabled, won't run migration
+2023-01-10 23:41:19.874 [Debug] [TabManagerStore.swift:247] write(tabStateData:path:) > PreserveTabs write succeeded with bytes count: 1053
+2023-01-10 23:41:20.048 [Debug] [TabManagerStore.swift:247] write(tabStateData:path:) > PreserveTabs write succeeded with bytes count: 1141
+2023-01-10 23:41:20.615 [Debug] [TabManagerStore.swift:247] write(tabStateData:path:) > PreserveTabs write succeeded with bytes count: 1141
